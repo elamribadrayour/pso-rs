@@ -1,0 +1,22 @@
+{
+    "epochs": 100,
+    "pso": {
+        "inertia": 0.1,
+        "cognitive": 0.5,
+        "social": 0.5
+    },
+    "output": {
+        "with_image": true
+    },
+    "population": {
+        "size": 100
+    },
+    "particle": {
+        "position": [0.0, 1.0],
+        "velocity": [-0.01, 0.01]
+    },
+    "food": {
+        "position": [0.3, 0.7],
+        "velocity": [-0.01, 0.01]
+    }
+}
